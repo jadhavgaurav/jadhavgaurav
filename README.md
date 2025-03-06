@@ -39,7 +39,6 @@ I'm a passionate Data Scientist with a strong background in data analysis, machi
 
 ## 🏆 Achievements
 
-- 🥇 Winner of the XYZ Data Science Competition
 - 📊 Published research on machine learning algorithms in IJREAM Journal
 - 🎓 Completed certification in Data Analysis from IBM Skills Network
 - 🎓 Completed certification in Data Science and Data Analysis from IT Vedant Institute
