@@ -11,7 +11,7 @@ I'm a passionate Data Scientist with a strong background in data analysis, machi
 - 👯 I’m looking to collaborate on data science and machine learning projects
 - 💬 Ask me about anything related to data science, machine learning, and statistics
 - 📫 How to reach me: [gaurav.vjadhav01@gmail.com](mailto:gaurav.vjadhav01@gmail.com)
-- ⚡ Fun fact: I enjoy hiking and playing the guitar
+- ⚡ Fun fact: I enjoy hiking and exploring the world
 
 ## 🛠️ Technologies & Tools
 
