@@ -63,9 +63,6 @@ I'm a passionate Data Scientist with a strong background in data analysis, machi
 ### [Concrete Compressive Strength Prediction](https://github.com/jadhavgaurav/concrete-compressive-strength-prediction)
 A project focused on predicting the compressive strength of concrete using machine learning techniques.
 
-### [Cement Composite Strength Prediction](https://github.com/jadhavgaurav/cement-composite-strength-prediction)
-A project focused on predicting the strength of cement composites using machine learning techniques.
-
 ### [Bank Telemarketing Prediction Model](https://github.com/jadhavgaurav/Bank_Telemarketing_predictionModel)
 An end-to-end machine learning project to predict the success of bank telemarketing campaigns.
 
