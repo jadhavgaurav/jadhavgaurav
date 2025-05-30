@@ -60,6 +60,9 @@ I'm a passionate Data Scientist with a strong background in data analysis, machi
 
 ## 📂 Projects
 
+### [🧠 Kidney Disease Classification Using CNN](https://github.com/jadhavgaurav/kidney_disease_classification)
+Built a high-accuracy CNN model for kidney disease classification from CT scans using MLflow, DVC, and an AWS-based CI/CD pipeline for automated, reproducible, and scalable deployment.
+
 ### [Concrete Compressive Strength Prediction](https://github.com/jadhavgaurav/concrete-compressive-strength-prediction)
 A project focused on predicting the compressive strength of concrete using machine learning techniques.
 
