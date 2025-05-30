@@ -84,9 +84,6 @@ An intelligent personal assistant project inspired by JARVIS from Iron Man.
 [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/jadhavgaurav)
 [![Live Projects](https://img.shields.io/badge/-Live%20Projects-black?style=flat-square&logo=streamlit)](https://insurance-premium-regression-gj.streamlit.app/)
 
-## 📜 License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## 💬 Feedback
 
