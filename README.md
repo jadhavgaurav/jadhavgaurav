@@ -1,59 +1,96 @@
-# Gaurav Jadhav
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme:dark)" srcset="assets/intro-dark-mobile.png">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/intro-light-mobile.png">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme:dark)" srcset="assets/intro-dark.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/intro-light.png">
+  <source media="(max-width: 600px) and (prefers-color-scheme:dark)" srcset="assets/intro-dark-mobile.gif">
+  <source media="(max-width: 600px)" srcset="assets/intro-light-mobile.gif">
+  <source media="(prefers-color-scheme:dark)" srcset="assets/intro-dark.gif">
+  <img src="assets/intro-light.gif" width="1120" alt="Gaurav Jadhav — AI and product engineer. I turn complex ideas into useful products. A small neural network learns to separate two groups of points.">
+</picture>
 
-Full stack AI engineer at Alsonotify, a Digibranders brand. Based in Mumbai.
+**Full Stack AI Engineer at Alsonotify, a Digibranders brand · Mumbai**
 
-I build AI products, agents and web apps in TypeScript and Python.
+I build AI products and the systems around them: retrieval, agents, APIs, and the interfaces people use. I care about what happens after the first successful demo—whether answers are grounded, actions are controlled, and the product holds up when something fails.
 
-[![Portfolio: Gaurav Jadhav, full stack AI engineer](https://jadhavgaurav.github.io/assets/og.png)](https://jadhavgaurav.github.io)
+**[Portfolio](https://jadhavgaurav.github.io)** · **[LinkedIn](https://www.linkedin.com/in/gauravjadhav007)** · **[Email](mailto:gaurav.vjadhav01@gmail.com)**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-jadhavgaurav.github.io-c2410c?style=flat-square)](https://jadhavgaurav.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gauravjadhav007-24292f?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gauravjadhav007)
-[![Email](https://img.shields.io/badge/Email-gaurav.vjadhav01%40gmail.com-24292f?style=flat-square&logo=gmail&logoColor=white)](mailto:gaurav.vjadhav01@gmail.com)
+## Engineering in practice
 
-## Selected work
+**OyeChats · AI product engineering**<br>
+My contributions include fixing a relevance gate that excluded useful knowledge-base content, consolidating duplicated RAG pipelines, and moving qualification work onto a durable job queue. The prompt consolidation documented in the remediation PR reduced one assembled prompt from **15,233 to 8,120 tokens**.<br>
+[Retrieval diagnosis](https://github.com/digibranders/oye-chats-platform/pull/450) · [Prompt, streaming & durability work](https://github.com/digibranders/oye-chats-platform/pull/455)
 
-| Project | What it is |
-| --- | --- |
-| [Bitling](https://github.com/jadhavgaurav/bitling) | A macOS desktop pet that reacts to your commits, test runs, deploys and Claude Code sessions. [Try it in the browser](https://jadhavgaurav.github.io/bitling/) |
-| [Project VICTUS](https://github.com/jadhavgaurav/PROJECT-VICTUS) | A voice assistant that answers questions over your documents and uses tools. Every tool call passes a policy engine that can require human approval, and each step is traced |
-| [GitHub Mirror](https://github.com/jadhavgaurav/github-mirror) | Builds an engineering profile from a public GitHub footprint: an archetype, five scored dimensions and a deterministic visual seal |
-| [Multimodal Search](https://github.com/jadhavgaurav/multimodal-search-platform) | Search images with a sentence or another image, using CLIP embeddings, ChromaDB, FastAPI and React |
-| [Vision-X](https://github.com/jadhavgaurav/Vision-X) | Real-time face recognition for attendance, with YOLOv8, SQLite logging and re-identification |
+**CleanStart · Product performance and correctness**<br>
+I batched CMS relationship lookups and fixed cache invalidation that could run before a database write committed. For the documented 25-row list, the change reduces roughly **75 relationship requests to 2**.<br>
+[CMS performance](https://github.com/digibranders/cleanstart-web/pull/279) · [Cache correctness](https://github.com/digibranders/cleanstart-web/pull/276)
 
-Machine learning: [phishing website detection](https://github.com/jadhavgaurav/CodeB_Internship_Project) (28 features chosen by four methods, explained with SHAP and LIME), [kidney disease classification](https://github.com/jadhavgaurav/Kidney_disease_classification_cnn) (MLflow, DVC, AWS CI/CD), a [smart email assistant](https://github.com/jadhavgaurav/smart-email-assistant-newel) (classifier, local Llama 3, human escalation) and [e-voting with blockchain and face recognition](https://github.com/jadhavgaurav/E-Voting-using-Blockchain-and-Face-Recognition).
+## Selected builds
 
-## Experience and education
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/jadhavgaurav/victus-backend">VICTUS</a></h3>
+<p>A document-aware assistant built around tools, policy decisions, approval controls, and execution traces. Making an agent's actions inspectable is part of the product.</p>
+<p><sub>AI orchestration · Retrieval · Tool policies</sub></p>
+<p><a href="https://github.com/jadhavgaurav/victus-backend">Backend</a> · <a href="https://github.com/jadhavgaurav/victus-frontend">Frontend</a> · <a href="https://github.com/jadhavgaurav/PROJECT-VICTUS">Original project</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/jadhavgaurav/bitling">Bitling</a></h3>
+<p>A desktop companion with a developer's working day: commits, test runs, deploys, and Claude Code sessions become little moments of character. Built primarily for macOS.</p>
+<p><sub>Developer tools · Native UI · Playful interaction</sub></p>
+<p><a href="https://jadhavgaurav.github.io/bitling/">Try the browser demo</a> · <a href="https://github.com/jadhavgaurav/bitling">Source</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/jadhavgaurav/inneed">INNEED</a></h3>
+<p>A rental marketplace that goes beyond listings: vendor onboarding, rental workflows, checkout, payment verification, disputes, and administration.</p>
+<p><sub>Full-stack product · Marketplace workflows · Payments</sub></p>
+<p><a href="https://github.com/jadhavgaurav/inneed">Explore the source</a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/jadhavgaurav/multimodal-search-platform">Multimodal Search</a></h3>
+<p>Find images with a sentence or another image. CLIP embeddings and vector search connect a FastAPI backend to a React interface.</p>
+<p><sub>CLIP · ChromaDB · FastAPI · React</sub></p>
+<p><a href="https://github.com/jadhavgaurav/multimodal-search-platform">Explore the source</a></p>
+</td>
+</tr>
+</table>
 
-| When | What |
-| --- | --- |
-| April 2026 to now | Full Stack AI Engineer, Alsonotify (a Digibranders brand) |
-| February to April 2025 | Data Science Intern, Code B Solutions |
-| June 2024 to June 2025 | Master in Data Science and Analytics with AI, IT Vedant with IBM |
-| April 2024 | Published in IJREAM: [A Framework to Make Voting System Transparent Using Blockchain Technology](https://doi.org/10.35291/2454-9150.2024.0261) |
-| 2024 | B.E. Computer Engineering, University of Mumbai |
+More builds: [GitHub Mirror](https://github.com/jadhavgaurav/github-mirror), a GitHub-footprint explorer with deterministic visual signatures, and [explainable phishing detection](https://github.com/jadhavgaurav/CodeB_Internship_Project) with feature selection, SHAP, and LIME.
 
-A thread through my work: systems should be able to say what they did. SHAP and LIME on a classifier, MLflow and DVC on a CT model, an approval gate on every agent tool call.
+## Tools I reach for
 
-## Stack
+**AI & data** — Python, FastAPI, LangChain, CLIP, ChromaDB, scikit-learn, PostgreSQL, Redis.<br>
+**Product** — TypeScript, React, Next.js, Node.js, Tailwind CSS.<br>
+**Delivery & experiments** — Docker, GitHub Actions, AWS, MLflow, DVC.
 
-| | |
-| --- | --- |
-| Web | TypeScript, Next.js, React, Node.js, Tailwind CSS, Flutter |
-| AI | Python, FastAPI, LangChain, ChromaDB, CLIP, Ollama, SHAP and LIME |
-| ML and delivery | scikit-learn, TensorFlow, MLflow, DVC, Docker, GitHub Actions, AWS |
-| Data | PostgreSQL, Redis, SQLite, pandas |
+## Open source, along the way
 
-## Open source
+I also send focused fixes upstream:
 
-Alongside my main work I send fixes upstream: **43 merged pull requests across 16 projects**, with 31 more in review (October 2026).
+- **[llm-gateway](https://github.com/mnfst/llm-gateway/pull/2772)** — preserve Anthropic server-tool parameters when forwarding requests.
+- **[Readest](https://github.com/readest/readest/pull/5905)** — make multi-device file sync converge.
+- **[Pandoc](https://github.com/jgm/pandoc/pull/11877)** — restore the missing bar on a blockquote's first line in ANSI output.
 
-| Project | Stars | What changed |
-| --- | --- | --- |
-| [Pandoc](https://github.com/jgm/pandoc) | 46.6k | The ANSI writer now draws the bar on a blockquote's first line |
-| [Readest](https://github.com/readest/readest) | 24.9k | Six fixes, including multi-device file sync and mirrored sliders in right-to-left books |
-| [Phoenix](https://github.com/phoenixframework/phoenix) | 23.2k | `phx.gen.cert` keeps the NULL parameters in its public key algorithm |
-| [llm-gateway](https://github.com/mnfst/llm-gateway) | 7.6k | Five fixes, including Anthropic server tools forwarded with parameters |
-| [MockK](https://github.com/mockk/mockk) | 5.8k | `coVerify` on a `spyk` of a suspend SAM interface no longer leaks a Continuation |
-| [Credo](https://github.com/rrrene/credo) | 5.2k | Removed a false positive in `NegatedConditionsWithElse` |
+[More contributions and project details →](https://jadhavgaurav.github.io/#open-source)
 
-Open pull requests include Plane (60k stars), RxSwift, SwiftLint, RuboCop and Newtonsoft.Json. The full list, with links to every pull request, is on [the portfolio](https://jadhavgaurav.github.io/#open-source) and rebuilds every day.
+<details>
+<summary>Background & earlier work</summary>
+
+- **Full Stack AI Engineer, Alsonotify / Digibranders** — April 2026–present.
+- **Data Science Intern, Code B Solutions** — February–April 2025.
+- **Master in Data Science and Analytics with AI, IT Vedant with IBM** — June 2024–June 2025.
+- **B.E. Computer Engineering, University of Mumbai** — 2024.
+- **Published research:** [A Framework to Make Voting System Transparent Using Blockchain Technology](https://ijream.org/papers/IJREAMV10SSJ2411.pdf), IJREAM, April 2024.
+
+Earlier projects include [computer vision for attendance](https://github.com/jadhavgaurav/Vision-X), [a CNN classification workflow with MLflow and DVC](https://github.com/jadhavgaurav/Kidney_disease_classification_cnn), and [an email assistant with human escalation](https://github.com/jadhavgaurav/smart-email-assistant-newel).
+
+</details>
+
+---
+
+**Building something useful with AI? [Let's talk.](mailto:gaurav.vjadhav01@gmail.com)**
+
+<sub>The intro shows a real training run on synthetic data. [How the animation is made](scripts/README.md).</sub>
