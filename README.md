@@ -92,5 +92,3 @@ Earlier projects include [computer vision for attendance](https://github.com/jad
 ---
 
 **Building something useful with AI? [Let's talk.](mailto:gaurav.vjadhav01@gmail.com)**
-
-<sub>The intro shows a real training run on synthetic data. [How the animation is made](scripts/README.md).</sub>
